@@ -3,6 +3,7 @@
 #' @param type One of seq (sequential), div (diverging) or qual (qualitative)
 #' @param palette If a string, will use that named palette.  If a number, will
 #'   index into the list of palettes of appropriate \code{type}
+#' @param direction If less than zero, will reverse the palette
 #' @references \url{http://colorbrewer2.org}
 #' @export
 #' @examples
