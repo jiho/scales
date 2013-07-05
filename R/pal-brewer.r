@@ -29,7 +29,7 @@ brewer_pal <- function(type = "seq", palette = 1, direction = 1) {
     else
       pal <- brewer.pal(n, pal)[seq_len(n)]
 
-    if (direction==-1)
+    if (direction < 0)
       pal <- rev(pal)
 
     return(pal)
